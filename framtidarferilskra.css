@@ -1,0 +1,87 @@
+body {
+	font-family: 'Rambla', sans-serif;
+	margin: 0px;
+	background: url(bakgrunnslengja.png);
+	background-size: contain;
+}
+header {
+	/*background: url(http://images.forwallpaper.com/files/thumbs/preview/21/217686__background-stripes-gray_p.jpg);
+	background-size: cover;*/
+	background-color: rgb(54, 0, 0);
+	background: linear-gradient(top, rgba(54, 0, 0,1), rgba(54, 0, 0,0));
+  	background: -webkit-linear-gradient(top, rgba(54, 0, 0,1), rgba(54, 0, 0,0));
+  	background: -moz-linear-gradient(top, rgba(54, 0, 0,1), rgba(54, 0, 0,0));
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	padding: 20px 20px 0px 20px;
+}
+#profilepic {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 20px;
+}
+.ui-accordion .ui-accordion-header {
+	padding: 50px 0 0 0;
+	text-align: center;
+	font-size: 1.4em;
+	border: none;
+}
+.ui-helper-reset {
+	font-size: inherit;
+}
+.ui-state-default {
+	background: transparent;
+	color: #e6e6e6;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl, .ui-corner-bottom {
+	border-radius: 0px;
+}
+.ui-state-active {
+	background-color: transparent;
+}
+.ui-state-active {
+	background: transparent;
+	color: white;
+}
+.ui-state-hover {
+	background: transparent;
+	color: white;
+}
+.ui-widget {
+	font-family: 'Rambla', sans-serif;
+	margin: 0px;
+	font-size: 1.3em;
+	background: transparent;
+	border: none;
+}
+#accordion {
+	padding: 30px 200px;
+}
+.ui-widget-content {
+	border: none;
+	background: transparent;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+.ui-widget-content a {
+	color: white;
+}
+.ui-widget-content li {
+	list-style-position: inside;
+}
+/*@media (max-width: 1000px) {
+	div {
+		padding: 30px 0px;
+	}
+	p {	
+		font-size: 1.8em;
+	}
+	ul li {
+		font-size: 1.8em;
+	}
+}
+
